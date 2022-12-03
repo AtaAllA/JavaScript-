@@ -189,6 +189,38 @@
                 
                 // console.log(z * 2 == o - z ? "yes" : "no")
 
+
+
+               // Question Bonus
+
+var a = parseInt(prompt("Ener A"))
+var b = parseInt(prompt("Ener B"))
+var c = parseInt(prompt("Ener C"))
+var d = parseInt(prompt("Ener D"))
+
+if((a+b*c )==d){
+     console.log("yes")
+}
+ else if ((a-b+c)==d){
+    console.log("yes")
+}
+  else if ((a*b+c)==d){
+    console.log("yes")
+}
+   else if ((a*b-c)==d){
+    console.log("yes")
+}
+    else if ((a+b-c)==d){
+        console.log("yes")
+    }
+     else if ((a-b*c)==d){
+        console.log("yes")
+    }
+      
+else{
+    console.log("no")
+}
+
                 
 
 
