@@ -112,13 +112,14 @@
 
             // Question 6
 
-            //  document.getElementById('opScroll').addEventListener("click" ,ad )
-            //  var ad1
-            //  function ad(){
-            //      ad1= window.open('' , "_blank", "width=500, height=500")
-            //      ad1.window.scrollTo(1000, 2000)
+             document.getElementById('opScroll').addEventListener("click" ,ad )
+             var ad1
+             function ad(){
+                 ad1= window.open('' , "_blank", "width=500, height=500")
+                 ad1.window.scrollbars(BarProp)
+                 ad1.scrollY(8000)
  
-            //  }
+             }
 
 
 
