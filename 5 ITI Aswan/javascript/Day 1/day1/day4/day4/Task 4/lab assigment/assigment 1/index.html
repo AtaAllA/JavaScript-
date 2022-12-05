@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="text" placeholder="Enter full name" required id="nameF" onblur="blure()" onfocus="Foc()"> <br>
+        <small style="border: 1px solid red; display: none;" id="smal">Error , Inavalid Name.</small>
+        <input type="email" required id="email" placeholder="Ener email"><br>
+        <select>
+            <option value="aswan">Aswan </option>
+            <option value="cairo">cairo </option>
+            <option value="giza">giza </option>
+            <option value="wasta">wasta </option>
+        </select><br>
+        <input type="password" placeholder="Enter pass" id="pass-1" onblur="blure()"><br>
+        <small style="border: 1px soid red; display: none; " id="small-2">Invalid pass</small>
+        <input type="password" placeholder="repeat pass" id="pass-2"><br>
+        <input type="checkbox" class="checkb"> I accept terms
+        <button id="reg">Register</button>
+
+    </form>
+    <br>
+    <br>
+    <br>
+</body>
+<script src="index.js"></script>
+</html>
