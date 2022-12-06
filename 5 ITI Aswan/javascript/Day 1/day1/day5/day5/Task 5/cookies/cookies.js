@@ -22,3 +22,10 @@ function createCookie(name,pwds){
     document.getElementById('pd').value = pass;
   
   }
+
+  function deleteCookies(){
+
+    document.cookie="name = ; expires=thu , 01 jan 2018 23:00:00 UCT ; path=/;"
+ 
+
+  }
